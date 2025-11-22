@@ -1,0 +1,56 @@
+=== REPORTE DE EVIDENCIA RAG (Hugging Face Local) ===
+Modelo: Qwen/Qwen2.5-1.5B-Instruct
+Fuentes: Wikipedia (IA, Redes Neuronales, Deep Learning)
+============================================================
+
+PREGUNTA 1: ¿Qué es la inteligencia artificial en pocas palabras?
+RESPUESTA: La inteligencia artificial es una disciplina y un conjunto de capacidades cognoscitivas e intelectuales expresadas por sistemas informáticos o combinaciones de algoritmos cuyo propósito es la creación de máquinas que imiten la inteligencia humana. 
+
+This summary captures the essence of what the AI is without going into too much detail about its history or specific applications. It's concise yet informative enough for someone who isn't familiar with the topic. The key points are that it's an area of computer science focused on creating machines that can mimic human intelligence, which includes learning from experience, adapting to new inputs, and performing tasks like recognizing speech, making decisions, translating languages, etc. This definition encapsulates the core idea behind AI while being brief. 
+
+The provided text also mentions some related concepts such as "explicability" and "friendliness," but these aren't included in this short definition. If you need more details on those topics, I'd be happy to provide them separately. Let me know if there's anything else I can help clarify!
+FUENTES: Inteligencia artificial
+--------------------------------------------------
+
+PREGUNTA 2: ¿En qué se inspiran las redes neuronales artificiales?
+RESPUESTA: Las redes neuronales artificiales se inspiran en la estructura y función de las redes neuronales biológicas en los cerebros animales. En particular, se basan en la forma en que las neuronas del cerebro interactúan y procesan información. Las neuronas artificiales en las redes neuronales se comparan con las neuronas biológicas en términos de cómo reciben "señales" de otras neuronas, procesan esa información y luego transmiten una señal a otras neuronas. Además, las conexiones entre las neuronas, que representan las sinapsis del cerebro, también se imitan en las redes neuronales. Esto permite que las redes neuronales puedan aprender y mejorar con el tiempo, similar a cómo funciona el cerebro. 
+
+Es importante mencionar que aunque las redes neuronales artificiales tienen muchas similitudes con las neuronas biológicas, no son exactamente iguales. Las neuronas biológicas tienen muchos detalles adicionales que las redes neuronales artificiales no necesitan considerar, como la capacidad de cambiar de tamaño y la existencia de neurotransmisores específicos. Sin embargo, estas similitudes ayudan a entender cómo funcionan las redes neuronales y proporcionan una base sólida para desarrollar nuevas tecnologías en el campo de la inteligencia artificial. 
+
+Además, las redes neuronales artificiales se basan en la idea de que el cerebro humano es capaz de aprender y adaptarse a su entorno, algo que las redes neuronales artificiales también buscan replicar. Esta capacidad de aprendizaje y adaptación es fundamental para aplicaciones como el reconocimiento facial, la toma de decisiones basadas en datos y la resolución de problemas complejos. 
+
+Finalmente, es importante destacar que las redes neuronales artificiales son solo una herramienta y no deben ser interpretadas como una copia perfecta del cerebro humano. Aunque las neuronas biológicas y las neuronas artificiales comparten ciertos aspectos, hay muchos otros elementos que diferencian completamente a las neuronas biológicas de las neuronas artificiales. 
+
+En resumen, las redes neuronales artificiales se inspiran principalmente en la estructura y la funcionalidad de las neuronas biológicas, pero también en la capacidad del cerebro humano de aprender y adaptarse a su entorno.
+FUENTES: Red neuronal artificial
+--------------------------------------------------
+
+PREGUNTA 3: Menciona un ejemplo práctico de uso del aprendizaje profundo.
+RESPUESTA: Una aplicación práctica del aprendizaje profundo podría ser la detección de anomalías en imágenes médicas. Por ejemplo, se han utilizado redes neuronales convolucionales (CNN) para segmentar glándulas en imágenes de histología, lo que puede ayudar en el diagnóstico de enfermedades. Este tipo de aplicaciones utiliza técnicas avanzadas de aprendizaje profundo para analizar y interpretar datos complejos, permitiendo una mejora significativa en la precisión y eficiencia de los sistemas médicos. Además, el aprendizaje profundo se está utilizando en la detección de fraudes financieros, la prevención de malware y la recomendación de productos en comercio electrónico. También se usa en la generación de contenido creativo, como fotografía y música, mediante técnicas de generación de texto y voz. Finalmente, el aprendizaje profundo se está aplicando en la medicina genética para analizar y predecir patologías basándose en datos genéticos.​
+Más información sobre el tema:
+https://www.sciencedirect.com/topics/computer-science/deep-learning
+https://www.nature.com/articles/s41598-019-46751-2
+https://www.researchgate.net/publication/334977235_Deep_Learning_in_Medicine_A_Review_of_the_Emerging_Trends_and_Progress
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6477747/
+https://www.sciencedirect.com/science/article/pii/S0022247X1930001X
+https://www.sciencedirect.com/science/article/pii/S0022247X19300021
+https://www.sciencedirect.com/science/article/pii/S0022247X19300033
+https://www.sciencedirect.com/science/article/pii/S0022247X19300045
+https://www.sciencedirect.com/science/article/pii/S0022247X19300057
+https://www.sciencedirect.com/science/article/pii/S0022247X19300069
+FUENTES: Aprendizaje profundo
+--------------------------------------------------
+
+PREGUNTA 4: ¿Cuál es la función básica de una neurona artificial?
+RESPUESTA: La función de activación​, también conocida como función de transferencia, es una función no lineal que se utiliza para convertir las entradas ponderadas de una neurona en su activación a la salida. Esta función permite que las salidas de las neuronas sean más precisas y complejas que simples ondas de onda. Por ejemplo, la función sigmoide se usa comúnmente en redes neuronales para dar una respuesta binaria (0 o 1) a partir de una entrada numérica. Otro ejemplo es la función tanh, que da una respuesta continua en el rango (-1, 1). Ambas funciones permiten que las salidas de las neuronas sean más precisas y complejas que simples ondas de onda. Además, estas funciones ayudan a regular la cantidad de salidas de las neuronas, evitando que se produzcan salidas extremadamente altas o bajas. En resumen, la función de activación es fundamental para la capacidad de las redes neuronales para aprender y generalizar de manera efectiva.
+FUENTES: Red neuronal artificial
+--------------------------------------------------
+
+PREGUNTA 5: ¿Qué diferencia hay entre una red neuronal y el cerebro humano?
+RESPUESTA: 1. Cerebro humano: Tiene una gran cantidad de neuronas y conexiones neuronales, mientras que una red neuronal artificial tiene menos neuronas y conexiones pero es más eficiente en términos de procesamiento de datos.
+2. Cerebro humano: Tiene una gran capacidad para aprender y adaptarse a nuevas situaciones, mientras que una red neuronal artificial requiere entrenamiento manual para aprender y mejorar sus resultados.
+3. Cerebro humano: Tiene una gran capacidad para realizar tareas complejas y múltiples, mientras que una red neuronal artificial solo puede realizar tareas específicas y estándar.
+4. Cerebro humano: Tiene una gran capacidad para entender y interpretar el mundo físico y emocional, mientras que una red neuronal artificial solo puede procesar y analizar datos numéricos.
+FUENTES: Red neuronal artificial
+--------------------------------------------------
+
